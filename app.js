@@ -14,23 +14,26 @@
 // shoppingList[4].splice(1, 2, "Cucumbers", "Bell Peppers");
 // console.log("after splice", shoppingList);
 
-let student = {
-  name: "Amit",
-  age: 20,
-  grade: "A",
-  address: {
-    street: "123 Main St",
-    city: "Kanpur",
-    country: "India",
-  },
-};
-console.log(student.name);
-student.phone = "123-456-7890";
-
-console.log(student);
-
-delete student.grade;
-console.log(student);
-
-student.age = 21;
-console.log(student);
+// let student = {
+// name: "Amit",
+// age: 20,
+// grade: "A",
+// address: {
+// street: "123 Main St",
+// city: "Kanpur",
+// country: "India",
+// },
+// };
+// console.log(student.name);
+// student.phone = "123-456-7890";
+//
+// console.log(student);
+//
+// delete student.grade;
+// console.log(student);
+//
+// student.age = 21;
+// console.log(student);
+let num;
+if (num > 0);
+console.log("number is (1)");

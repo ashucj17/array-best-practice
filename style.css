@@ -1,5 +1,10 @@
 .assessment {
+  width: 600px;
   text-align: center;
   color: #666;
   padding: 40px;
+  margin: 30px auto;
+  border: 2px solid #ededed;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px 0 #1d1d1d;
 }
