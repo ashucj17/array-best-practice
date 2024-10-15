@@ -34,6 +34,23 @@
 //
 // student.age = 21;
 // console.log(student);
-let num;
-if (num > 0);
-console.log("number is (1)");
+// let num;
+// if (num > 0);
+// console.log("number is (1)");
+
+let arr = [3, 6, 5, 43, 6, 7];
+console.log(arr);
+// arr.push(2); //adding an element at the last index
+// arr.unshift(76); // adding element aat the start
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// console.log(arr.slice(1, 6)); // it will provide the coppy of the array from start to end point where end point is not included
+// console.log(arr);
+arr.splice(5, 0, "alien", "rabbit"); // it will use to add the element at the given index .
+console.log(arr.length);
+let newarr = [46, 68];
+let finalarr = arr.concat(newarr);
+console.log(finalarr);
