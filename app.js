@@ -59,3 +59,11 @@
 // console.log(favSingers[0]);
 // let mixArr = ["alpha", ["lamda", "gama"], 123, "two"];
 // console.log(mixArr[1][1]);
+
+let arr_ts = [1, 2, 3, 4, 5, 6];
+let arr_rs = [9, 8, 7, 6];
+// console.log(arr_ts);
+// arr_ts.push(arr_rs);
+// console.log(arr_ts);
+arr_ts.concat(arr_rs);
+console.log(arr_ts);
