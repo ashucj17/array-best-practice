@@ -60,10 +60,20 @@
 // let mixArr = ["alpha", ["lamda", "gama"], 123, "two"];
 // console.log(mixArr[1][1]);
 
-let arr_ts = [1, 2, 3, 4, 5, 6];
-let arr_rs = [9, 8, 7, 6];
+// let arr_ts = [1, 2, 3, 4, 5, 6];
+// let arr_rs = [9, 8, 7, 6];
 // console.log(arr_ts);
 // arr_ts.push(arr_rs);
 // console.log(arr_ts);
-arr_ts.concat(arr_rs);
-console.log(arr_ts);
+// let conArray = arr_ts.concat(arr_rs);
+// console.log(conArray);
+
+// let myArray = [...arr_ts, ...arr_rs]; /* Using spread operator */
+// console.log(myArray);
+// let arr_mt = [7, 4, 1, 2, [5, 8], 3, 6, [7, 8, 9]];
+// let revised_arr = arr_mt.flat(1);
+// console.log(revised_arr);
+
+console.log(Array.isArray("Ashish"));
+console.log(Array.from("Ashish"));
+console.log(Array.of("Ashish"));
