@@ -95,4 +95,8 @@ fruits.length = 2
 // console.log(fruits)
 
 fruits.slice(0,2)
-console.log(fruits)
+// console.log(fruits)
+
+let myNum = new Array(3,2,6,9,5,4,7) /* Array constructor */
+
+console.log(myNum)
