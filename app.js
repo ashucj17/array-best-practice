@@ -74,6 +74,21 @@
 // let revised_arr = arr_mt.flat(1);
 // console.log(revised_arr);
 
-console.log(Array.isArray("Ashish"));
-console.log(Array.from("Ashish"));
-console.log(Array.of("Ashish"));
+// console.log(Array.isArray("Ashish"));
+// console.log(Array.from("Ashish"));
+// console.log(Array.of("Ashish"));
+
+
+
+let fruits=[]
+fruits.push('banana', 'apple', 'grapes')
+// console.log(fruits);
+
+fruits[5] = 'mango'
+// console.log(fruits.length)
+// console.log(fruits[5])
+fruits.push('pineapple')
+console.log(Object.keys(fruits))
+
+fruits.length = 10
+console.log(fruits)
