@@ -88,7 +88,11 @@ fruits[5] = 'mango'
 // console.log(fruits.length)
 // console.log(fruits[5])
 fruits.push('pineapple')
-console.log(Object.keys(fruits))
+// console.log(Object.keys(fruits))
 
-fruits.length = 10
+// fruits.length = 10
+fruits.length = 2
+// console.log(fruits)
+
+fruits.slice(0,2)
 console.log(fruits)
